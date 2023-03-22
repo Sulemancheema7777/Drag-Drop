@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Game</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="center">
+    <h1>Score: <span id="score">0</span></h1>
+    <button id="playAgain">Play Again</button>
+    <p>Drag the colorful shapes into the matching hole.</p>
+  </header>
+  <div class="center drop-section">
+    <div class="square empty"></div>
+    <div class="rectangle empty"></div>
+    <div class="oval empty"></div>
+    <div class="pill empty"></div>
+  </div>
+  <br>
+  <div class="center drag-section">
+    <div class="square" draggable="true"></div>
+    <div class="oval" draggable="true"></div>
+    <div class="pill" draggable="true"></div>
+    <div class="rectangle" draggable="true"></div>
+  </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
